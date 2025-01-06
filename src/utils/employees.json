@@ -1,0 +1,572 @@
+[
+    {
+        "emp_Img": "https://s3-alpha-sig.figma.com/img/573f/9e95/d05c616a6eb42b46b77114ca84eaaabc?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RiB3kSGxGNsJ6tNFgA~wYoJirQT4yXI89GTo2JsYJhMDo8zyTZGCVFlYdObbMMXXKWHJNFDFXA9jXDg6ZoHFch4cdtnP4bL6p5fg7yRDWelyJllYIVrytoALa23TVSmd2hgjNaNoQX6ntXzVD2HVdH5vo9mN3URXvS2MAaQqwPUwzHhkZ9O1D-uaPFxuswCGdmvnCEOUinkEIcyjKcny3RYjFistdWr6LNSrh-8hkHUj9Tkyg28cPKgBxct-J3kpvSo5nBhuAFpm7KYTYvStQDEr3U7mlbu8TBGj50f711NLvx3edtm8BKltpD~zjsfOzoA5~ZFngSS30ITzK-r~5A__",
+        "emp_id": "E001",
+        "emp_name": "Pedro Savage",
+        "email": "sean77@sanford.biz",
+        "mobile": "(284)655-1871",
+        "dob": "1991-03-09",
+        "gender": "Female",
+        "marital_status": "Married",
+        "nationality": "Timor-Leste",
+        "address": {
+            "street": "4643 Perry Manors Suite 192",
+            "city": "Port Jacobburgh",
+            "state": "Montana",
+            "zip": "08180"
+        },
+        "department": "Finance",
+        "designation": "Accountant",
+        "employee_type": "Full-time",
+        "working_days": "Monday-Friday",
+        "joining_date": "2024-04-19",
+        "office_location": "Lake Adam",
+        "documents": {
+            "appointment_letter": "appointment_letter_E001.pdf",
+            "salary_slips": [
+                "salary_September.pdf",
+                "salary_May.pdf"
+            ],
+            "relieving_letter": null,
+            "experience_letter": "experience_letter_E001.pdf"
+        },
+        "account_access": {
+            "email": "jonathanli@hotmail.com",
+            "slack_id": "jensendawn",
+            "skype_id": "rebecca54",
+            "github_id": "reedveronica"
+        }
+    },
+    {
+        "emp_Img": "https://s3-alpha-sig.figma.com/img/abe0/b00a/425e79bbc91583d0bd366d54156c2453?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WzTQUbcDoXL78sRHf9yRX9DGFqrAvad5DN2emUMJhE6edE84Iv77KB~yuoOeVywMEvW8SrXFrfuG4TORsEjh8a8Cga6WMAkIWXgDNXYeD8ZQvuqvGlKbin2wqB-Ee5Fr-jF9mvm3Nl5qEwATLD68fV5jmAmXT4JfPBVM9d-Y-lw~niZZf3OpuKqOdqWe7nHFW969mu4bb2wo8J2HTjuPwUeVdJXUacIYy6ndwfgzskFRefGge2C8sLXZKEQJG~1Hm4g8UcSR58f~z9byo4LuAxV1vmKxFDMo-lKG6hNhwZSuhLxKsLrWa5R2iV~gXbQc87ctcUZmc7JMRfHMJU03Cw__",
+        "emp_id": "E002",
+        "emp_name": "Danielle Bennett",
+        "email": "saracook@gmail.com",
+        "mobile": "001-425-255-6771x481",
+        "dob": "2001-01-16",
+        "gender": "Female",
+        "marital_status": "Divorced",
+        "nationality": "United Kingdom",
+        "address": {
+            "street": "31744 Hill Camp",
+            "city": "New Sandra",
+            "state": "Rhode Island",
+            "zip": "39486"
+        },
+        "department": "Finance",
+        "designation": "Accountant",
+        "employee_type": "Part-time",
+        "working_days": "Monday-Friday",
+        "joining_date": "2021-10-26",
+        "office_location": "South Sheila",
+        "documents": {
+            "appointment_letter": "appointment_letter_E002.pdf",
+            "salary_slips": [
+                "salary_June.pdf",
+                "salary_October.pdf"
+            ],
+            "relieving_letter": null,
+            "experience_letter": null
+        },
+        "account_access": {
+            "email": "eric30@shannon.info",
+            "slack_id": "joshua04",
+            "skype_id": "sharon59",
+            "github_id": null
+        }
+    },
+    {
+        "emp_Img": "https://s3-alpha-sig.figma.com/img/3f28/053f/0bce8492ac9cd971eb668d400ee8ff55?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WgeEsVONW~pLf8JcP72FdUDtXppIU1FMpuACrE5tLdD1mi9nQ6wQ3MCNZNgPXTUtYzNSMDcaUbt2hxdCyFjF6593OvWjo7yFbGmbNrA-CrGAEbYNC9Xh76jShntwKk93uvnIL-gx2zvSH38TxN3BCTwX6SR18E714uHwkxYTIp2lB4wgAds2gQKM5RGp~nDvMzqE3gDZkXDofndqVDY0RHyxzArZmV7eLE32jabG1GKAerPJbq2nTqn602QS5lkpgRjn3BBYhjH5z~1VEuZyeE~OF~FoEA1yCpNrOHpidongQVKkEfdRbxbq24WeajU22fWiedoDZOpq7EPch-HbWA__",
+        "emp_id": "E003",
+        "emp_name": "James Barnes",
+        "email": "ustewart@green.com",
+        "mobile": "001-527-499-6904x089",
+        "dob": "1985-07-25",
+        "gender": "Other",
+        "marital_status": "Widowed",
+        "nationality": "Morocco",
+        "address": {
+            "street": "5322 Hill Terrace Apt. 565",
+            "city": "Herreratown",
+            "state": "Illinois",
+            "zip": "80842"
+        },
+        "department": "Sales",
+        "designation": "Accountant",
+        "employee_type": "Full-time",
+        "working_days": "Monday-Friday",
+        "joining_date": "2021-09-23",
+        "office_location": "Williamsport",
+        "documents": {
+            "appointment_letter": "appointment_letter_E003.pdf",
+            "salary_slips": [
+                "salary_September.pdf",
+                "salary_December.pdf"
+            ],
+            "relieving_letter": "relieving_letter_E003.pdf",
+            "experience_letter": "experience_letter_E003.pdf"
+        },
+        "account_access": {
+            "email": "stephen41@mitchell.com",
+            "slack_id": "christophersingh",
+            "skype_id": "juanfry",
+            "github_id": "elizabethdavis"
+        }
+    },
+    {
+        "emp_Img": "https://s3-alpha-sig.figma.com/img/e151/0bf9/2e503b24bd6f16dfd4f7bd4643d7dff7?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=eDpa4OsrTIiYyk4sSpuz16XY0a2QeOLapgDExyZklah0rtWrmsGZfN0bi5dJVUlmdQkM3RkIp7WxFfFx4MPHjsa2I1yRc8pQLDcBx9tQuNY-UoWyLRdCB9FOwAapUBqSbVnE6KOETuNR9o841~Pl2rSmP3PireHBm8hMPMdjekMpzmkFlHj4FYRzx8v-NFxXCUjkyp6uPH9YShr87bS2xiyAis9JoVwGe4DMO02MapDobq51tR-mMnCwHRFK00tYXANwKfnAig3OjkeJe~Tmj4oFB0mkZPScTLdD7QEwACLeUbplL7Pdhqw849SO-IfsvFrjuDu8auCkL0tgGely1Q__",
+        "emp_id": "E004",
+        "emp_name": "Amber Sanders",
+        "email": "tiffany14@hardin.net",
+        "mobile": "(151)938-4879x3781",
+        "dob": "1989-11-22",
+        "gender": "Male",
+        "marital_status": "Married",
+        "nationality": "Bhutan",
+        "address": {
+            "street": "4858 Angela Ranch",
+            "city": "Mitchellport",
+            "state": "Montana",
+            "zip": "16760"
+        },
+        "department": "Finance",
+        "designation": "Sales Executive",
+        "employee_type": "Part-time",
+        "working_days": "Monday-Friday",
+        "joining_date": "2021-05-26",
+        "office_location": "Reynoldsshire",
+        "documents": {
+            "appointment_letter": "appointment_letter_E004.pdf",
+            "salary_slips": [
+                "salary_January.pdf",
+                "salary_March.pdf"
+            ],
+            "relieving_letter": null,
+            "experience_letter": "experience_letter_E004.pdf"
+        },
+        "account_access": {
+            "email": "uwilliams@hotmail.com",
+            "slack_id": "alexandra40",
+            "skype_id": "andersonmarvin",
+            "github_id": "seaton"
+        }
+    },
+    {
+        "emp_Img": "https://s3-alpha-sig.figma.com/img/0c27/648b/dc88f3209ccfbcc5d9b9d169cf99426c?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=J1T2fBht~jhYTiVpg8~iuVVjs-m0Z4J7yM-AJrP7-o0v836eQSahU2FbYXy~aUnBWP2smqLHlEmA779By-Smrv0bEit-50kzi3APDAP9xRDZ0MSsW4fWPY4MZ3ytkFtMD2oyhRSiXeQpnWPrnHdX3ydQuMvy~X-StX5PGcOsUnDmPyVnpiQ5IqJnYqw9W4AJDH-s0FDBvxb9LeVy98xnlpf~IhC75lBBpMhAkhc0-G7gnxy3k5dBIr8bAwCweoTZYlOsfktDlY5sZJfQfTqjOZClWjiGlMeSyYnhXFIpLt2nNi0fkGo0uikuSYA8KThiixYbtNfPikAyOV48cpveMw__",
+        "emp_id": "E005",
+        "emp_name": "Dylan Taylor",
+        "email": "dbradley@yahoo.com",
+        "mobile": "+1-742-541-0758x564",
+        "dob": "1989-01-22",
+        "gender": "Male",
+        "marital_status": "Married",
+        "nationality": "Canada",
+        "address": {
+            "street": "460 Ward Rapid",
+            "city": "Jasonbury",
+            "state": "Delaware",
+            "zip": "90187"
+        },
+        "department": "Sales",
+        "designation": "Sales Executive",
+        "employee_type": "Full-time",
+        "working_days": "Monday-Friday",
+        "joining_date": "2023-06-26",
+        "office_location": "Vanessashire",
+        "documents": {
+            "appointment_letter": "appointment_letter_E005.pdf",
+            "salary_slips": [
+                "salary_September.pdf",
+                "salary_January.pdf"
+            ],
+            "relieving_letter": null,
+            "experience_letter": "experience_letter_E005.pdf"
+        },
+        "account_access": {
+            "email": "kristenperez@gibson-patel.com",
+            "slack_id": "tanyastone",
+            "skype_id": "yharris",
+            "github_id": null
+        }
+    },
+    {
+        "emp_Img": "https://s3-alpha-sig.figma.com/img/d214/1dcc/6e1d41cec47b276f00b1030719afdb7f?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TnbJoDQ8BrHs4o~42LyH790YKyuJWSzZkyDuypjDmKcN2aSrP6OVhH6JH4dlwNtU6Lh7g7HqxmPLFS~JGza1fmbycaRU7MEySDyw5A~EI97n8p8NZc4fGhhFOTo48xEcTRQd58qtHUgNfGDau7Dado7JX3ubErOkgyzt7sjTEd7I0liv2wZUb~YR6NbqPkFHgqzs1AQro1~NqMP3TvHvyLiNx9XskDHw~e7HrLxwiqVTygfC9wLeBKwqe3H3aejvJue2XLJ8tStobVbYX5z1~V5oFjLjlnacaENHYF6G13nghgmknxL6hKF7T8R~Kxmg4mMp1DbuIVgeUiHCIrUhDw__",
+        "emp_id": "E006",
+        "emp_name": "Diamond Cox",
+        "email": "taylor21@luna-campos.com",
+        "mobile": "(513)995-8054",
+        "dob": "1973-06-04",
+        "gender": "Male",
+        "marital_status": "Widowed",
+        "nationality": "Congo",
+        "address": {
+            "street": "6260 Brendan Crossroad",
+            "city": "North Valerie",
+            "state": "Wisconsin",
+            "zip": "39842"
+        },
+        "department": "Finance",
+        "designation": "Software Engineer",
+        "employee_type": "Part-time",
+        "working_days": "Monday-Friday",
+        "joining_date": "2024-02-01",
+        "office_location": "West Judith",
+        "documents": {
+            "appointment_letter": "appointment_letter_E006.pdf",
+            "salary_slips": [
+                "salary_October.pdf",
+                "salary_September.pdf"
+            ],
+            "relieving_letter": null,
+            "experience_letter": "experience_letter_E006.pdf"
+        },
+        "account_access": {
+            "email": "sarahwilliams@russell.com",
+            "slack_id": "acopeland",
+            "skype_id": "diana09",
+            "github_id": null
+        }
+    },
+    {
+        "emp_Img": "https://s3-alpha-sig.figma.com/img/e512/8ad2/8deceac56443041edd2d47c9dae21163?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WbfJ08gCoBSQpyS~kXijgRPkznKKJFO0ZgSD7~t1BJopgaB5thBZw~gBKSYUpdVuc3X7lrOKdUxUoHuLMwpwq2wCZGszdaMzoeMyiXV9sZ9eP-3o6IhsKNdSK9ZU0seYggQ7Tq6rY2boI6E-OuHEW94nJgtFTCM8UAI~4QsIzerMCqqwsAzPYtfe6iSVYWa5c5ANgXqTjaos1P3s~2a3~nesINvZIEGiic4VEVIwlYns053c8tBuWheid7cb9HMSl8CdYQERYDzIgRb1WrHIpjX8ChdZ3F~Ocg2zq1Gtp~UnzySZ6tNSToG1Y3cWUQl4LXJkYFbQ4ebNT3HA94tW~A__",
+        "emp_id": "E007",
+        "emp_name": "Mary Nelson",
+        "email": "acevedoveronica@yahoo.com",
+        "mobile": "623-387-6513x3207",
+        "dob": "1985-02-22",
+        "gender": "Female",
+        "marital_status": "Single",
+        "nationality": "Marshall Islands",
+        "address": {
+            "street": "667 Joel Shoals Apt. 045",
+            "city": "Lyonsburgh",
+            "state": "Kentucky",
+            "zip": "15764"
+        },
+        "department": "Sales",
+        "designation": "Software Engineer",
+        "employee_type": "Part-time",
+        "working_days": "Monday-Friday",
+        "joining_date": "2024-04-24",
+        "office_location": "South Royside",
+        "documents": {
+            "appointment_letter": "appointment_letter_E007.pdf",
+            "salary_slips": [
+                "salary_May.pdf",
+                "salary_October.pdf"
+            ],
+            "relieving_letter": null,
+            "experience_letter": "experience_letter_E007.pdf"
+        },
+        "account_access": {
+            "email": "dianejohnson@ortiz-fox.com",
+            "slack_id": "edwardjones",
+            "skype_id": "richardsonstephanie",
+            "github_id": "zpatel"
+        }
+    },
+    {
+        "emp_Img": "https://s3-alpha-sig.figma.com/img/faa4/3197/036264a84f6711eb1cf1eb96e5dd2852?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=d3UMHDtTJfN5xFeoMjE7cc-~mctlv~3s4uW-huRAGE7v-gSs5EYgYNQ7vCyiR4ivG-EkzQp7WkuQ9pNGL4oT9hWo55i6ocnnKKxemCmdW2dgEPLIQHpxJfBe8GjZNY96e3a0aAM-paFQIsokgx4OPucCYYe7T7XFcNr0hrvbZqK1FS2WgvlQpNmA78R6vV928XZ7R6YMR3zb5fmr5CyuYsRKAU0jKNJ7t-mu87whOj1os1cNYuk3NJSmKwp74a5JuqloES6abW9lF3zPfB5YlvWqeV07wZavwO2Fgx7dGrxdiyDIrOLqKtKdkRzVfZjFJm60o5dfHEMp--x-B6ONeg__",
+        "emp_id": "E008",
+        "emp_name": "Kristen Meyers",
+        "email": "wbrown@hotmail.com",
+        "mobile": "479.370.7645x08626",
+        "dob": "2002-10-12",
+        "gender": "Female",
+        "marital_status": "Married",
+        "nationality": "Madagascar",
+        "address": {
+            "street": "52747 Haynes Greens",
+            "city": "North Brent",
+            "state": "Utah",
+            "zip": "46101"
+        },
+        "department": "IT",
+        "designation": "Sales Executive",
+        "employee_type": "Part-time",
+        "working_days": "Monday-Friday",
+        "joining_date": "2024-12-24",
+        "office_location": "East Danaberg",
+        "documents": {
+            "appointment_letter": "appointment_letter_E008.pdf",
+            "salary_slips": [
+                "salary_October.pdf",
+                "salary_February.pdf"
+            ],
+            "relieving_letter": "relieving_letter_E008.pdf",
+            "experience_letter": null
+        },
+        "account_access": {
+            "email": "rlutz@gmail.com",
+            "slack_id": "kellyrivera",
+            "skype_id": "qtate",
+            "github_id": "joseph91"
+        }
+    },
+    {
+        "emp_Img": "https://s3-alpha-sig.figma.com/img/0259/2dae/9691f748e3c6f31905cf933ce6cc4290?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DDu6hGO6VtSmLZuJosxgGFWpLK7~02puTazmZSp0-NJjrg~~GHYSETEmSe9vGaDtpl21hgO4KfDB2GaRq-CTC-8xEWWI-B4ndRwdbrVOWczyvN~ViU-5HCxPa5WAyKU6VPy3rS8hH6OBhvGAJD-cb5hKn5AU7BBhqA5MG~7Q3fQQPMmzSq0yyrWYqfvdFb9hUO5IlckqU7qjsbHD3BIyXn5bHpDZYMqKpGXtyTcykCV1IrjcVvjQWIANNMuwaVIEtGXFzHfW6kese3f3bcDENUYKuofBDGA6O5rdhEeE86gCB0auQNzaKOKYNHrpSw~el8bU2i6FByC2HNR2UF1paA__",
+        "emp_id": "E009",
+        "emp_name": "Gregory Clark",
+        "email": "wagnerwesley@gmail.com",
+        "mobile": "009.331.2208x42332",
+        "dob": "1977-08-01",
+        "gender": "Female",
+        "marital_status": "Widowed",
+        "nationality": "Faroe Islands",
+        "address": {
+            "street": "450 Nicholas Ports Suite 708",
+            "city": "Claudiafurt",
+            "state": "Pennsylvania",
+            "zip": "77832"
+        },
+        "department": "Marketing",
+        "designation": "HR Manager",
+        "employee_type": "Part-time",
+        "working_days": "Monday-Friday",
+        "joining_date": "2021-07-09",
+        "office_location": "Lake Stephanie",
+        "documents": {
+            "appointment_letter": "appointment_letter_E009.pdf",
+            "salary_slips": [
+                "salary_September.pdf",
+                "salary_January.pdf"
+            ],
+            "relieving_letter": "relieving_letter_E009.pdf",
+            "experience_letter": null
+        },
+        "account_access": {
+            "email": "brianna05@yahoo.com",
+            "slack_id": "camachotodd",
+            "skype_id": "huntjillian",
+            "github_id": null
+        }
+    },
+    {
+        "emp_Img": "https://s3-alpha-sig.figma.com/img/9feb/110b/7ae65aa57f909878d8549967cc570236?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=d~CxTHZLwqidYbwfwqbVPBmllbcw5Qf8FL4efFww-BCeCHWB5~aKWRYEmLxMCkvUuBN95KOkidlmdME0XJ05hTLdsdkyRbK4BeGzfLMAXjrXlmFuJBVGwDGLiFOrxft4xI8ATzHm-6OKg2~BXmo~q2YnNKP0e6suw9oSKVugo3BhK14ZxjkocjAGqBPy--EdBxJvJDzJPlWqT5Kujt3MqP88Yv5l235cnTWNBoZRXHHwA8uXE3Wj4c877H87O1eskgIXp0HBwxQ3~wceKZd6ayiiUAPPnRAwjdPXL1lN4D7EMMO2D5Raj9nW1Lms4n2dnTEjH5HxcguPY3X9K8A4cg__",
+        "emp_id": "E010",
+        "emp_name": "Carlos Sanchez",
+        "email": "william61@gmail.com",
+        "mobile": "660.224.2915",
+        "dob": "1982-07-11",
+        "gender": "Male",
+        "marital_status": "Single",
+        "nationality": "Ghana",
+        "address": {
+            "street": "2133 Lee Hill",
+            "city": "Lake Jenniferport",
+            "state": "Oregon",
+            "zip": "60384"
+        },
+        "department": "Sales",
+        "designation": "Software Engineer",
+        "employee_type": "Contract",
+        "working_days": "Monday-Friday",
+        "joining_date": "2022-10-04",
+        "office_location": "North Suzanneburgh",
+        "documents": {
+            "appointment_letter": "appointment_letter_E010.pdf",
+            "salary_slips": [
+                "salary_November.pdf",
+                "salary_January.pdf"
+            ],
+            "relieving_letter": "relieving_letter_E010.pdf",
+            "experience_letter": null
+        },
+        "account_access": {
+            "email": "mccanngreg@horne-white.biz",
+            "slack_id": "tjuarez",
+            "skype_id": "anthonyhamilton",
+            "github_id": "kthornton"
+        }
+    },
+    {
+        "emp_Img": "https://s3-alpha-sig.figma.com/img/9379/8ae3/f200add447d64e967a74191ab54207c1?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RbRBok5ynaY4sdQC-ayTWoAioerHTHmcRZyM4Yhx04T3pUJFsDlkXeEm9hDvJbjR0PVlI5cndt9LmjlzoXXZe-JKn~vB2-m2R6dFp9Q4OGjntntfTpRkwce4z93FWdJtrDvF0sCtyu3wUh5dlniuDRtTosGJA0mdWFQ02J0dRbVqm3r5A7FY3F17qJA6hpbk9kiy9nTFExs54UNQWX8c7vb4vGJcZy-kkqO-wUXLdRJLnZtZQAqnJuAlBmcYFesooeHGbr-9z1Ly5Bw93zixXxdomaFI-tZOp20x3~i2EWo428jCzL2oobUh4tkao8ahI~wzlhYtSgWJ8N99I09G0w__",
+        "emp_id": "E011",
+        "emp_name": "Mr. Christopher Martin",
+        "email": "shirley48@hotmail.com",
+        "mobile": "+1-468-489-0852",
+        "dob": "1973-05-26",
+        "gender": "Male",
+        "marital_status": "Widowed",
+        "nationality": "United Arab Emirates",
+        "address": {
+            "street": "7366 Garcia Mount Suite 255",
+            "city": "Lake Spencer",
+            "state": "Missouri",
+            "zip": "96918"
+        },
+        "department": "IT",
+        "designation": "HR Manager",
+        "employee_type": "Full-time",
+        "working_days": "Monday-Friday",
+        "joining_date": "2020-01-19",
+        "office_location": "Stephanieberg",
+        "documents": {
+            "appointment_letter": "appointment_letter_E011.pdf",
+            "salary_slips": [
+                "salary_March.pdf",
+                "salary_September.pdf"
+            ],
+            "relieving_letter": "relieving_letter_E011.pdf",
+            "experience_letter": "experience_letter_E011.pdf"
+        },
+        "account_access": {
+            "email": "susan18@gmail.com",
+            "slack_id": "njones",
+            "skype_id": "jessicagraves",
+            "github_id": null
+        }
+    },
+    {
+        "emp_Img": "https://s3-alpha-sig.figma.com/img/9902/5026/ef545fce7a758188585b742e3d5aba25?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e22E277HmZ99A7b0lAN1xCgkEHgv7Xq59Q1VGz9jT36TLKGkAhxKxnE733dBOgmuGjUeXgyfso84T2rK2CWn8JVR4H6zQmV4G~DPM1kZ7kBVdHcMZV8ygg3Pt4mqJG0-vbGRe9YUXUWnhhQuwuAVaZp6ZnlglqFqkxcmzLpzWzKTC1AISR8ADc9Aqk7NN5KlIQUgGtKyRWupnW5f5KZsqC2vqOAxXD5pTaMJF4D-913sy0gGJRwvQM~XuUJ9761JZwQ9MTUYV6vftDaOhuZXOsLFSALu55zeKbstGCJLdF3wCy8OKVim6Abbd7ZQNqS9u4xa4lMBlWNnz~yf~0mg5g__",
+        "emp_id": "E012",
+        "emp_name": "Kristin Bryant",
+        "email": "ijackson@wright.com",
+        "mobile": "187-612-1997",
+        "dob": "1972-03-09",
+        "gender": "Other",
+        "marital_status": "Single",
+        "nationality": "Somalia",
+        "address": {
+            "street": "72625 Brittany Road",
+            "city": "Heatherton",
+            "state": "Illinois",
+            "zip": "59603"
+        },
+        "department": "Finance",
+        "designation": "Software Engineer",
+        "employee_type": "Contract",
+        "working_days": "Monday-Friday",
+        "joining_date": "2021-12-02",
+        "office_location": "Jacquelinechester",
+        "documents": {
+            "appointment_letter": "appointment_letter_E012.pdf",
+            "salary_slips": [
+                "salary_March.pdf",
+                "salary_December.pdf"
+            ],
+            "relieving_letter": null,
+            "experience_letter": "experience_letter_E012.pdf"
+        },
+        "account_access": {
+            "email": "kyle41@sweeney.com",
+            "slack_id": "angela29",
+            "skype_id": "pennygould",
+            "github_id": null
+        }
+    },
+    {
+        "emp_Img": "https://s3-alpha-sig.figma.com/img/0259/2dae/9691f748e3c6f31905cf933ce6cc4290?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DDu6hGO6VtSmLZuJosxgGFWpLK7~02puTazmZSp0-NJjrg~~GHYSETEmSe9vGaDtpl21hgO4KfDB2GaRq-CTC-8xEWWI-B4ndRwdbrVOWczyvN~ViU-5HCxPa5WAyKU6VPy3rS8hH6OBhvGAJD-cb5hKn5AU7BBhqA5MG~7Q3fQQPMmzSq0yyrWYqfvdFb9hUO5IlckqU7qjsbHD3BIyXn5bHpDZYMqKpGXtyTcykCV1IrjcVvjQWIANNMuwaVIEtGXFzHfW6kese3f3bcDENUYKuofBDGA6O5rdhEeE86gCB0auQNzaKOKYNHrpSw~el8bU2i6FByC2HNR2UF1paA__",
+        "emp_id": "E013",
+        "emp_name": "Vanessa Perry",
+        "email": "john19@gmail.com",
+        "mobile": "(780)921-7210",
+        "dob": "1991-11-18",
+        "gender": "Male",
+        "marital_status": "Married",
+        "nationality": "Romania",
+        "address": {
+            "street": "66453 Duncan Pine",
+            "city": "South Jacobville",
+            "state": "Nevada",
+            "zip": "07688"
+        },
+        "department": "Marketing",
+        "designation": "Marketing Specialist",
+        "employee_type": "Contract",
+        "working_days": "Monday-Friday",
+        "joining_date": "2021-05-22",
+        "office_location": "West Sarah",
+        "documents": {
+            "appointment_letter": "appointment_letter_E013.pdf",
+            "salary_slips": [
+                "salary_April.pdf",
+                "salary_May.pdf"
+            ],
+            "relieving_letter": "relieving_letter_E013.pdf",
+            "experience_letter": "experience_letter_E013.pdf"
+        },
+        "account_access": {
+            "email": "combswendy@hotmail.com",
+            "slack_id": "tracey81",
+            "skype_id": "zmay",
+            "github_id": null
+        }
+    },
+    {
+        "emp_Img": "https://s3-alpha-sig.figma.com/img/e512/8ad2/8deceac56443041edd2d47c9dae21163?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WbfJ08gCoBSQpyS~kXijgRPkznKKJFO0ZgSD7~t1BJopgaB5thBZw~gBKSYUpdVuc3X7lrOKdUxUoHuLMwpwq2wCZGszdaMzoeMyiXV9sZ9eP-3o6IhsKNdSK9ZU0seYggQ7Tq6rY2boI6E-OuHEW94nJgtFTCM8UAI~4QsIzerMCqqwsAzPYtfe6iSVYWa5c5ANgXqTjaos1P3s~2a3~nesINvZIEGiic4VEVIwlYns053c8tBuWheid7cb9HMSl8CdYQERYDzIgRb1WrHIpjX8ChdZ3F~Ocg2zq1Gtp~UnzySZ6tNSToG1Y3cWUQl4LXJkYFbQ4ebNT3HA94tW~A__",
+        "emp_id": "E014",
+        "emp_name": "Aaron Harris",
+        "email": "iknight@martinez-baker.com",
+        "mobile": "073-483-6123x540",
+        "dob": "1979-07-21",
+        "gender": "Male",
+        "marital_status": "Widowed",
+        "nationality": "Armenia",
+        "address": {
+            "street": "8657 Wendy Expressway Apt. 566",
+            "city": "South Brianland",
+            "state": "New Hampshire",
+            "zip": "07195"
+        },
+        "department": "HR",
+        "designation": "Software Engineer",
+        "employee_type": "Full-time",
+        "working_days": "Monday-Friday",
+        "joining_date": "2021-10-03",
+        "office_location": "Jacksonland",
+        "documents": {
+            "appointment_letter": "appointment_letter_E014.pdf",
+            "salary_slips": [
+                "salary_June.pdf",
+                "salary_September.pdf"
+            ],
+            "relieving_letter": "relieving_letter_E014.pdf",
+            "experience_letter": "experience_letter_E014.pdf"
+        },
+        "account_access": {
+            "email": "jeremyrodriguez@hotmail.com",
+            "slack_id": "hmoore",
+            "skype_id": "gpoole",
+            "github_id": "alexanderlaura"
+        }
+    },
+    {
+        "emp_Img": "https://s3-alpha-sig.figma.com/img/e151/0bf9/2e503b24bd6f16dfd4f7bd4643d7dff7?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=eDpa4OsrTIiYyk4sSpuz16XY0a2QeOLapgDExyZklah0rtWrmsGZfN0bi5dJVUlmdQkM3RkIp7WxFfFx4MPHjsa2I1yRc8pQLDcBx9tQuNY-UoWyLRdCB9FOwAapUBqSbVnE6KOETuNR9o841~Pl2rSmP3PireHBm8hMPMdjekMpzmkFlHj4FYRzx8v-NFxXCUjkyp6uPH9YShr87bS2xiyAis9JoVwGe4DMO02MapDobq51tR-mMnCwHRFK00tYXANwKfnAig3OjkeJe~Tmj4oFB0mkZPScTLdD7QEwACLeUbplL7Pdhqw849SO-IfsvFrjuDu8auCkL0tgGely1Q__",
+        "emp_id": "E015",
+        "emp_name": "Elizabeth Turner",
+        "email": "carolinephillips@yahoo.com",
+        "mobile": "001-416-849-1346x6067",
+        "dob": "1964-06-30",
+        "gender": "Other",
+        "marital_status": "Married",
+        "nationality": "Nicaragua",
+        "address": {
+            "street": "84047 Jessica Underpass",
+            "city": "Latoyaport",
+            "state": "Wyoming",
+            "zip": "35550"
+        },
+        "department": "HR",
+        "designation": "Accountant",
+        "employee_type": "Contract",
+        "working_days": "Monday-Friday",
+        "joining_date": "2020-07-09",
+        "office_location": "Benjaminstad",
+        "documents": {
+            "appointment_letter": "appointment_letter_E015.pdf",
+            "salary_slips": [
+                "salary_September.pdf",
+                "salary_August.pdf"
+            ],
+            "relieving_letter": null,
+            "experience_letter": "experience_letter_E015.pdf"
+        },
+        "account_access": {
+            "email": "torreswhitney@ashley.biz",
+            "slack_id": "reneegreen",
+            "skype_id": "boothpatrick",
+            "github_id": null
+        }
+    }
+]
