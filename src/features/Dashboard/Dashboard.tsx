@@ -5,6 +5,7 @@ import briefcase04 from '../../assets/Icons/briefcase04.svg'
 import calendarCheck from '../../assets/Icons/calendarCheck.svg'
 import file from '../../assets/Icons/file.svg'
 import AttendanceOverview from './components/AttendanceOveriew/AttendanceOveriew'
+import Calendar from './components/Calendar/Calendar'
 
 export default function Dashboard() {
   return (
@@ -21,7 +22,9 @@ export default function Dashboard() {
             <AttendanceOverview />
           </div>
         </div>
-        <div className={styles.rightContainer}></div>
+        <div className={styles.rightContainer}>
+          <Calendar />
+        </div>
       </div>
       <div className={styles.containerLower}></div>
     </main>

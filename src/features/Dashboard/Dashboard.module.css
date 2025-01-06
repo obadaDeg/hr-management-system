@@ -13,7 +13,6 @@
 .leftContainer{
     display: flex;
     flex-direction: column;
-    border: 1px solid green;
     gap: 1rem;
     width: 50%;
 }
@@ -22,4 +21,9 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+}
+
+.attendanceContainer{
+    border: 1px solid var(--gray-color-opacity-20);
+    border-radius: 10px;
 }
