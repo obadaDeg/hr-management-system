@@ -83,6 +83,9 @@
   --color-options-2: #30beb6;
   --color-options-3: #5d30be;
   --color-options-4: #304fbe;
+  --color-options-5: #f45b69;
+  --color-options-1-10: rgba(48, 190, 131, 0.1);
+  --color-options-5-10: rgba(244, 91, 105, 0.1);
 
   --header-1-size: 5rem;
   --header-1-weight: 300;

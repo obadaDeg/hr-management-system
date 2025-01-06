@@ -1,0 +1,77 @@
+.card{
+    flex: 1 1 calc(50% - 1rem);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--gray-color-opacity-20);
+    border-radius: 10px ;
+}
+
+.cardHeader{
+    padding: 0.25rem 1rem ;
+}
+
+.cardTop{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    padding: 0.5rem 0;
+}
+
+.cardIcon{
+    background-color: var(--primary-color-opacity-5);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.cardTitle{
+    font-weight: var(--body-2-weight);
+    font-size: var(--body-2-size);
+    line-height: var(--body-2-line-height);
+}
+
+.cardBody{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.cardNumber{
+    font-weight: var(--header-4-bold-weight);
+    font-size: var(--header-4-size);
+    line-height: var(--header-4-line-height);
+}
+
+.percentageContainer{
+    display: flex;
+    padding: 0.25rem 0.5rem;
+    column-gap: 0.5rem;
+    align-items: center;
+    border-radius: 5px;   
+}
+
+.green{
+    background-color: var(--color-options-1-10);
+    color: var(--color-options-1);
+}
+
+.red{
+    background-color: var(--color-options-5-10);
+    color: var(--color-options-5);
+}
+
+.percentage, .percentageIcon{
+    font-weight: var(--label-weight);
+    font-size: var(--label-size);
+    line-height: var(--label-line-height);
+}
+
+.cardFooter{
+    border-top: 1px solid var(--gray-color-opacity-20);
+    padding: 0.5rem 1rem ;
+    font-weight: var(--caption-weight);
+    font-size: var(--caption-size);
+    line-height: var(--caption-line-height);
+    color: var(--gray-color-500);
+}
