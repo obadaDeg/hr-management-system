@@ -83,57 +83,65 @@
   --color-options-2: #30beb6;
   --color-options-3: #5d30be;
   --color-options-4: #304fbe;
+  --color-options-5: #f45b69;
+  --color-options-1-10: rgba(48, 190, 131, 0.1);
+  --color-options-5-10: rgba(244, 91, 105, 0.1);
 
-  --header-1-regular: "Lexend", 300 5rem;
+  --header-1-size: 5rem;
+  --header-1-weight: 300;
   --header-1-line-height: 6rem;
-  --header-2-regular: "Lexend", 300 3.75rem;
-  --header-2-line-height: 4.5rem;
-  --header-3-regular: "Lexend", 300 2.5rem;
-  --header-3-line-height: 3rem;
-  --header-4-regular: "Lexend", 300 1.88rem;
-  --header-4-line-height: 2.25rem;
-  --header-5-regular: "Lexend", 300 1.5rem;
-  --header-5-line-height: 1.8rem;
-  --header-6-regular: "Lexend", 300 1.3rem;
-  --header-6-line-height: 1.6rem;
-  --header-7-regular: "Lexend", 300 1.13rem;
-  --header-7-line-height: 1.4rem;
 
-  --body-1-regular: "Lexend", 300 1.13rem;
+  --header-2-size: 3.75rem;
+  --header-2-weight: 300;
+  --header-2-line-height: 4.5rem;
+
+  --header-3-size: 2.5rem;
+  --header-3-weight: 300;
+  --header-3-line-height: 3rem;
+
+  --header-4-size: 1.88rem;
+  --header-4-weight: 300;
+  --header-4-line-height: 2.25rem;
+
+  --header-5-size: 1.5rem;
+  --header-5-weight: 300;
+  --header-5-line-height: 1.8rem;
+
+  --header-6-size: 1.3rem;
+  --header-6-weight: 300;
+  --header-6-line-height: 1.6rem;
+
+  /* Bold Headers */
+  --header-1-bold-weight: 600;
+  --header-2-bold-weight: 600;
+  --header-3-bold-weight: 600;
+  --header-4-bold-weight: 600;
+  --header-5-bold-weight: 600;
+  --header-6-bold-weight: 600;
+
+  /* Body Font Sizes and Weights */
+  --body-1-size: 1.13rem;
+  --body-1-weight: 300;
   --body-1-line-height: 1.8rem;
-  --body-2-regular: "Lexend", 300 0.88rem;
+
+  --body-2-size: 0.88rem;
+  --body-2-weight: 300;
   --body-2-line-height: 1.4rem;
-  --caption-regular: "Lexend", 300 0.75rem;
+
+  /* Bold Body Fonts */
+  --body-1-bold-weight: 600;
+  --body-2-bold-weight: 600;
+
+  /* Miscellaneous */
+  --caption-size: 0.75rem;
+  --caption-weight: 300;
   --caption-line-height: 1.2rem;
-  --label-regular: "Lexend", 300 0.69rem;
+
+  --label-size: 0.69rem;
+  --label-weight: 300;
   --label-line-height: 1rem;
 
-  --header-1-bold: "Lexend", 600 5rem;
-  --header-1-bold-line-height: 6rem;
-  --header-2-bold: "Lexend", 600 3.75rem;
-  --header-2-bold-line-height: 4.5rem;
-  --header-3-bold: "Lexend", 600 2.5rem;
-  --header-3-bold-line-height: 3rem;
-  --header-4-bold: "Lexend", 600 1.88rem;
-  --header-4-bold-line-height: 2.25rem;
-  --header-5-bold: "Lexend", 600 1.5rem;
-  --header-5-bold-line-height: 1.8rem;
-  --header-6-bold: "Lexend", 600 1.3rem;
-  --header-6-bold-line-height: 1.6rem;
-  --header-7-bold: "Lexend", 600 1.13rem;
-  --header-7-bold-line-height: 1.4rem;
-
-  --body-1-bold: "Lexend", 600 1.13rem;
-  --body-1-bold-line-height: 1.8rem;
-  --body-2-bold: "Lexend", 600 0.88rem;
-  --body-2-bold-line-height: 1.4rem;
-  --caption-bold: "Lexend", 600 0.75rem;
-  --caption-bold-line-height: 1.2rem;
-  --label-bold: "Lexend", 600 0.69rem;
-  --label-bold-line-height: 1rem;
-
-  --semi-bold: 600;
-
+  /* Transitions */
   --animation-duration: 0.3s;
   --animation-ease: ease-in-out;
 }

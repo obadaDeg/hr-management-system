@@ -1,1 +1,29 @@
-/*  */
+.main{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.containerUpper{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}
+
+.leftContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+}
+
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.attendanceContainer{
+    border: 1px solid var(--gray-color-opacity-20);
+    border-radius: 10px;
+}

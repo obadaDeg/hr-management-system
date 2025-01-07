@@ -7,6 +7,7 @@
   margin: 0.5rem;
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
+  background-color: var(--gray-color-opacity-5);
 }
 
 .navHeader {
@@ -44,22 +45,24 @@
   text-decoration: none;
   color: inherit;
   padding: 0.75rem 1rem;
-  border-radius: 12px;
+  border-radius: 0 10px 10px 0 ;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .navLink:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-  color: #007aff;
+  background-color: var(--primary-color-opacity-5);
+  color: var(--primary-color-500);
 }
 
 .active {
-  background-color: #007aff;
-  color: #fff;
+  background-color: var(--primary-color-opacity-5);
+  color: var(--primary-color-500);
+  font-weight: var(--header-1-bold-weight);
 }
 
 .icon {
   font-size: 1.5rem;
+  color: var(--primary-color-500);
 }
 
 .themeToggle {

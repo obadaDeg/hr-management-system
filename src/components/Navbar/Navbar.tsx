@@ -1,19 +1,15 @@
 import { NavLink } from "react-router-dom";
 import styles from "./NavBar.module.css";
-import { alpha, Button, useTheme } from "@mui/material";
+import { Button, useTheme } from "@mui/material";
 import AppLogo from "../../assets/AppLogo";
-import { Home } from "@mui/icons-material";
-import WbSunnyOutlinedIcon from "@mui/icons-material/WbSunnyOutlined";
-import BedtimeOutlinedIcon from "@mui/icons-material/BedtimeOutlined";
+import Apps_updated from '../../assets/Icons/Apps_updated.svg';
+import appsSolid_updated from '../../assets/Icons/appsSolid_updated.svg'
 
 export default function Navbar() {
   const theme = useTheme();
-  const secondaryWithOpacity = alpha(theme.palette.text.secondary, 0.05);
-
   return (
     <nav
       className={styles.sideNavbar}
-      style={{ backgroundColor: secondaryWithOpacity }}
     >
       <header className={styles.navHeader}>
         <AppLogo />
@@ -23,25 +19,41 @@ export default function Navbar() {
       <menu className={styles.navMenu}>
         <li>
           <NavLink
-            to={"/"}
+            to="/"
             className={({ isActive }) =>
               `${styles.navLink} ${isActive ? styles.active : ""}`
             }
             end
           >
-            <Home className={styles.icon} />
-            Dashboard
+            {({ isActive }) => (
+              <>
+                {isActive ? (
+                  <img src={appsSolid_updated} className={styles.icon} />
+                ) : (
+                  <img src={Apps_updated} className={styles.icon} />
+                )}
+                Dashboard
+              </>
+            )}
           </NavLink>
         </li>
-        <li>
+        {/* <li>
             <NavLink
                 to={"/employees"}
                 className={({ isActive }) =>
                 `${styles.navLink} ${isActive ? styles.active : ""}`
                 }
             >
-                <Home className={styles.icon} />
-                Employees
+              {({ isActive }) => (
+              <>
+                {isActive ? (
+                  <GroupsIcon className={styles.icon} />
+                ) : (
+                  <GroupsOutlinedIcon className={styles.icon} />
+                )}
+                All Employees
+              </>
+            )}
             </NavLink>
         </li>
         <li>
@@ -51,8 +63,16 @@ export default function Navbar() {
                 `${styles.navLink} ${isActive ? styles.active : ""}`
                 }
             >
-                <Home className={styles.icon} />
-                Departments
+                {({ isActive }) => (
+              <>
+                {isActive ? (
+                  <DashboardIcon className={styles.icon} />
+                ) : (
+                  <DashboardOutlinedIcon className={styles.icon} />
+                )}
+                All Departments
+              </>
+            )}
             </NavLink>
         </li>
         <li>
@@ -62,8 +82,16 @@ export default function Navbar() {
                 `${styles.navLink} ${isActive ? styles.active : ""}`
                 }
             >
-                <Home className={styles.icon} />
+                {({ isActive }) => (
+              <>
+                {isActive ? (
+                  <EventAvailableIcon className={styles.icon} />
+                ) : (
+                  <EventAvailableOutlinedIcon className={styles.icon} />
+                )}
                 Attendance
+              </>
+            )}
             </NavLink>
         </li>
         <li>
@@ -73,8 +101,16 @@ export default function Navbar() {
                 `${styles.navLink} ${isActive ? styles.active : ""}`
                 }
             >
-                <Home className={styles.icon} />
-                Payroll
+                {({ isActive }) => (
+              <>
+                {isActive ? (
+                  <DashboardIcon className={styles.icon} />
+                ) : (
+                  <DashboardOutlinedIcon className={styles.icon} />
+                )}
+                Dashboard
+              </>
+            )}
             </NavLink>
         </li>
         <li>
@@ -84,8 +120,16 @@ export default function Navbar() {
                 `${styles.navLink} ${isActive ? styles.active : ""}`
                 }
             >
-                <Home className={styles.icon} />
-                Jobs
+                {({ isActive }) => (
+              <>
+                {isActive ? (
+                  <DashboardIcon className={styles.icon} />
+                ) : (
+                  <DashboardOutlinedIcon className={styles.icon} />
+                )}
+                Dashboard
+              </>
+            )}
             </NavLink>
         </li>
         <li>
@@ -95,8 +139,16 @@ export default function Navbar() {
                 `${styles.navLink} ${isActive ? styles.active : ""}`
                 }
             >
-                <Home className={styles.icon} />
-                candidates
+                {({ isActive }) => (
+              <>
+                {isActive ? (
+                  <DashboardIcon className={styles.icon} />
+                ) : (
+                  <DashboardOutlinedIcon className={styles.icon} />
+                )}
+                Dashboard
+              </>
+            )}
             </NavLink>
         </li>
         <li>
@@ -106,8 +158,16 @@ export default function Navbar() {
                 `${styles.navLink} ${isActive ? styles.active : ""}`
                 }
             >
-                <Home className={styles.icon} />
-                Holidays
+                {({ isActive }) => (
+              <>
+                {isActive ? (
+                  <DashboardIcon className={styles.icon} />
+                ) : (
+                  <DashboardOutlinedIcon className={styles.icon} />
+                )}
+                Dashboard
+              </>
+            )}
             </NavLink>
         </li>
         <li>
@@ -117,13 +177,21 @@ export default function Navbar() {
                 `${styles.navLink} ${isActive ? styles.active : ""}`
                 }
             >
-                <Home className={styles.icon} />
-                Settings
+                {({ isActive }) => (
+              <>
+                {isActive ? (
+                  <DashboardIcon className={styles.icon} />
+                ) : (
+                  <DashboardOutlinedIcon className={styles.icon} />
+                )}
+                Dashboard
+              </>
+            )}
             </NavLink>
-        </li>
+        </li> */}
       </menu>
 
-      <div className={styles.themeToggle}>
+      {/* <div className={styles.themeToggle}>
         <Button
           variant="contained"
           color="primary"
@@ -140,7 +208,7 @@ export default function Navbar() {
           <BedtimeOutlinedIcon />
           Dark
         </Button>
-      </div>
+      </div> */}
     </nav>
   );
 }

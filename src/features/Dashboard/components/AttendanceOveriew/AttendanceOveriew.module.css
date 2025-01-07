@@ -1,0 +1,5 @@
+.selectOption{
+    font-weight: var(--body-2-weight);
+    font-size: var(--body-2-size);
+    line-height: var(--body-2-line-height);
+}
