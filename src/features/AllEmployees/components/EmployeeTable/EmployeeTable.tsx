@@ -90,7 +90,7 @@ export const EmployeeTable: React.FC<EmployeeTableProps> = ({ data }) => {
           <p>Showing 1 to {employeesPerPage} out of {data.length} records</p>
         </div>
         <div className={styles.pageNumbers}>
-          <button onClick={goToPrevious} disabled={currentPage === 1} style={{padding: "0.25em 0.5em", borderRadius: "8px", backgroundColor: "transparent", border: "none", color: "black"}}>
+          <button onClick={goToPrevious} disabled={currentPage === 1} style={{padding: "1em", borderRadius: "8px", backgroundColor: "transparent", border: "none", color: "black"}}>
             {"<"}
           </button>
 
@@ -101,7 +101,7 @@ export const EmployeeTable: React.FC<EmployeeTableProps> = ({ data }) => {
               style={{
                 backgroundColor: "transparent",
                 color: pageNum === currentPage ? "#7152f3" : "black",
-                padding: "0.25em 0.5em",
+                padding: "1em",
                 border: pageNum === currentPage ? "1px solid #7152f3" : "none",
                 borderRadius: "8px"
               }}
@@ -110,7 +110,7 @@ export const EmployeeTable: React.FC<EmployeeTableProps> = ({ data }) => {
             </button>
           ))}
 
-          <button onClick={goToNext} disabled={currentPage === totalPages} style={{padding: "0.25em 0.5em", borderRadius: "8px", backgroundColor: "transparent", border: "none", color: "black"}}>
+          <button onClick={goToNext} disabled={currentPage === totalPages} style={{padding: "1em", borderRadius: "8px", backgroundColor: "transparent", border: "none", color: "black"}}>
             {">"}
           </button>
         </div>

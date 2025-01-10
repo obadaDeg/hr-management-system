@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import { getAllEmployees } from "../../services/employeeService";
 import { Employee } from "../../types/general-types";
 import styles from "./AllEmployees.module.css";

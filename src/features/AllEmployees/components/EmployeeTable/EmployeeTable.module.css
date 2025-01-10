@@ -45,13 +45,13 @@ td, th{
 .pagination{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 0.5em;
+    align-items: stretch;
+    padding: 1em 0;
 }
 
 .empNumbers{
     display: flex;
-    column-gap: 0.5em;
+    column-gap: 0.6em;
     color: var(--gray-color-500);
     align-items: center;
 }
@@ -60,7 +60,7 @@ td, th{
     background-color: var(--white-color-opacity-20);
     color: var(--dark-color-500);
     border: 1px solid var(--gray-color-opacity-20);
-    padding: 0.5em;
+    padding: 1em;
     border-radius: 10px;
 }
 
@@ -69,6 +69,7 @@ td, th{
     font-size: var(--body-2-size);
     font-weight: var(--body-2-weight);
     line-height: var(--body-2-line-height);
+    align-self: center;
 }
 
 .pageNumbers{
