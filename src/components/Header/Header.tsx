@@ -3,6 +3,7 @@ import search02 from '../../assets/Icons/search02.svg'
 import notification from '../../assets/Icons/notification.svg'
 import { FormControl, InputLabel, Select, MenuItem } from '@mui/material';
 import { Logout } from '@mui/icons-material';
+import Search from '../Search/Search';
 
 export default function Header() {
   return (
@@ -12,10 +13,7 @@ export default function Header() {
         <p className={styles.headerWelcome}>Good Morning</p>
       </div>
       <div className={styles.rightHeader}>
-        <div className={styles.headerSearch}>
-          <img src={search02} alt="search" className={styles.searchIcon}/>
-          <input type="text" placeholder="Search" className={styles.seacrhInput}/>
-        </div>
+        <Search />
         <button className={styles.headerNotification}>
           <img src={notification} alt="notification" className={styles.notificationIcon}/>
         </button>
@@ -27,8 +25,8 @@ export default function Header() {
                   <p className={styles.profilePosition}>HR Manager</p>
                 </div>
               </div>
-          <FormControl sx={{ m: 0, minWidth: 200 }}>
-              <Select
+          <FormControl sx={{ m: 0, minWidth: 200}} size='small'>
+              <Select style={{paddingTop: '0.5em'}}
               >
                 <MenuItem value={"Logout"}>logout</MenuItem>
                 <MenuItem value={20}>Twenty</MenuItem>

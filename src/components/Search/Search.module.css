@@ -1,0 +1,25 @@
+.headerSearch{
+    display: flex;
+    align-items: stretch;
+    border: 1px solid var(--gray-color-opacity-10);
+    border-radius: 10px;
+    min-width: 20em;
+}
+
+.searchIcon{
+    margin: auto 0 auto 1rem;
+}
+
+.searchInput{
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: var(--body-1-size);
+    font-weight: var(--body-1-weight);
+    line-height: var(--body-1-line-height);
+}
+
+.seacrhInput::placeholder{
+    color: var(--dark-color-opacity-20);
+}
