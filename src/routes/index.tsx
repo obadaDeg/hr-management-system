@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import RootLayout from "./RootLayout/RootLayout";
 import Dashboard from "../features/Dashboard/Dashboard";
+import AllEmployees from "../features/AllEmployees/AllEmployees";
 
 const router = createBrowserRouter([
   {
@@ -16,7 +17,7 @@ const router = createBrowserRouter([
         children: [
           {
             index: true,
-            element: <div>Employees</div>,
+            element: <AllEmployees />,
           },
           {
             path: ":id",
