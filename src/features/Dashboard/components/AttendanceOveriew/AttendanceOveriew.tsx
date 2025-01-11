@@ -1,5 +1,11 @@
-import styles from './AttendanceOveriew.module.css'
-import { Box, Typography, Menu, MenuItem, Button, FormControl, InputLabel, Select } from "@mui/material";
+import {
+  Box,
+  Typography,
+  FormControl,
+  MenuItem,
+  Select,
+  SelectChangeEvent,
+} from "@mui/material";
 import { Bar } from "react-chartjs-2";
 import {
   Chart as ChartJS,
@@ -8,22 +14,22 @@ import {
   BarElement,
   Tooltip,
   Legend,
+  ChartOptions,
+  ChartData,
 } from "chart.js";
+import { useState } from "react";
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Tooltip, Legend);
 
-import { useState } from "react";
-import { Today } from "@mui/icons-material";
+const AttendanceOverview: React.FC = () => {
+  const [filter, setFilter] = useState<string>("Today");
 
-const AttendanceOverview = () => {
-  const [age, setAge] = useState('');
-  
-  const handleChange = (event: React.ChangeEvent<{ value: unknown }>) => {
-    setAge(event.target.value as string);
+  const handleFilterChange = (event: SelectChangeEvent<string>) => {
+    setFilter(event.target.value);
   };
-  // Data for the chart
-  const data = {
-    labels: ["Mon", "Tue", "Web", "Thu", "Fri", "Sat", "Sun"],
+
+  const chartData: ChartData<"bar", number[], string> = {
+    labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
     datasets: [
       {
         label: "60%",
@@ -49,8 +55,7 @@ const AttendanceOverview = () => {
     ],
   };
 
-  // Chart options
-  const options = {
+  const chartOptions: ChartOptions<'bar'> = {
     responsive: true,
     maintainAspectRatio: false,
     scales: {
@@ -64,8 +69,8 @@ const AttendanceOverview = () => {
         stacked: true,
         beginAtZero: true,
         grid: {
-          drawBorder: false,
-          color: "#e5e7eb",
+          color: '#e5e7eb',
+          borderColor: 'transparent', // Hides the y-axis border
         },
         ticks: {
           stepSize: 20,
@@ -81,7 +86,7 @@ const AttendanceOverview = () => {
       },
     },
   };
-
+  
   return (
     <Box
       sx={{
@@ -102,17 +107,21 @@ const AttendanceOverview = () => {
         <Typography variant="h6" sx={{ fontWeight: 600 }}>
           Attendance Overview
         </Typography>
-        <FormControl sx={{ m: 1, minWidth: 120, borderRadius:10 }} size="small" style={{borderRadius: 10}}>
+        <FormControl sx={{ m: 1, minWidth: 120 }} size="small">
           <Select
-           displayEmpty
-           inputProps={{ 'aria-label': 'Without label' }}
+            value={filter}
+            onChange={handleFilterChange}
+            displayEmpty
+            inputProps={{ "aria-label": "Filter" }}
           >
-            <MenuItem value="Today" className={styles.selectOption}>Today</MenuItem>
+            <MenuItem value="Today">Today</MenuItem>
+            <MenuItem value="This Week">This Week</MenuItem>
+            <MenuItem value="This Month">This Month</MenuItem>
           </Select>
         </FormControl>
       </Box>
       <Box sx={{ height: 300 }}>
-        <Bar data={data} options={options} />
+        <Bar data={chartData} options={chartOptions} />
       </Box>
     </Box>
   );

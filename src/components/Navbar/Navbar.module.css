@@ -23,6 +23,13 @@
   width: 3rem;
 }
 
+.sideNavbar a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
 .logoText {
   font-size: 1.5rem;
   font-weight: 600;
@@ -81,4 +88,12 @@
   padding: 0.75rem;
   border-radius: 10px;
   font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1150px) {
+  .themeToggle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column  ;
+  }
 }
